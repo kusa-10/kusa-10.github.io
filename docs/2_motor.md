@@ -35,7 +35,7 @@ lerobot-setup-motors \
     --teleop.port={リーダーアームのポート}
 ```
 
-## 3.[キャリブレーション](https://huggingface.co/docs/lerobot/so101#calibrate)
+## 3. [キャリブレーション](https://huggingface.co/docs/lerobot/so101#calibrate)
 それぞれのアームについて以下のコマンドを実行した後、各関節で可動域全体動くように動かします。
 ### フォロワーアーム
 ```bash
