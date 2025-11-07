@@ -36,7 +36,7 @@ lerobot-setup-motors \
 ```
 
 ## 3. [キャリブレーション](https://huggingface.co/docs/lerobot/so101#calibrate)
-それぞれのアームについて以下のコマンドを実行した後、各関節で可動域全体動くように動かします。
+それぞれのアームについて以下のコマンドを実行した後、各関節で可動域全体動くように動かし終わったらEnterキーで終了します。
 ### フォロワーアーム
 ```bash
 lerobot-calibrate \
