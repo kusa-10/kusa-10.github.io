@@ -14,13 +14,13 @@ USB接続、電源投入後に以下のコマンドを実行してください�
 
 後の過程で使うのでリーダー、フォロワーそれぞれについて行い、記録しておいてください。
 
-``` bash
+```
 lerobot-find-port
 ```
 ## 2. [モーターID設定](https://huggingface.co/docs/lerobot/so101#2-set-the-motors-ids-and-baudrates)
 ### フォロワーアーム
 USB接続、電源投入されていることを確認し、以下のコマンドを実行します。
-```bash
+```
 lerobot-setup-motors \
     --robot.type=so101_follower \
     --robot.port={フォロワーアームのポート}
@@ -29,7 +29,7 @@ lerobot-setup-motors \
 
 ### リーダーアーム
 フォロワー同様に、以下のコマンドを実行し、順番に設定します。
-```bash
+```
 lerobot-setup-motors \
     --teleop.type=so101_leader \
     --teleop.port={リーダーアームのポート}
@@ -38,14 +38,14 @@ lerobot-setup-motors \
 ## 3. [キャリブレーション](https://huggingface.co/docs/lerobot/so101#calibrate)
 それぞれのアームについて以下のコマンドを実行した後、各関節で可動域全体動くように動かし終わったらEnterキーで終了します。
 ### フォロワーアーム
-```bash
+```
 lerobot-calibrate \
     --robot.type=so101_follower \
     --robot.port={フォロワーアームのポート} \
     --robot.id={フォロワーアームのID(任意の名前)}
 ```
 ### リーダーアーム
-```bash
+```
 lerobot-calibrate \
     --teleop.type=so101_leader \
     --teleop.port={リーダーアームのポート} \ 
