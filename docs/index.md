@@ -43,20 +43,19 @@
 
 ## あると便利なもの
 - 運営側では用意しないので必要に応じて各自ご購入ください。
-- クランプ
+- クランプ([Amazon](https://amzn.to/4636HZ5))
   - キット内に3Dプリンタ製の簡易的なものが入っていますが、使い勝手や強度に不安があります。
-  - https://amzn.to/4636HZ5
-- DCインラインスイッチ
+- DCインラインスイッチ([Amazon](https://amzn.to/4oJNFyC))
   - 実機テスト中のコード見直しなどの際に電源On/Offを手軽にできて便利です。
-  - https://amzn.to/4oJNFyC
-- 長めのUSBケーブル
+- 長めのUSBケーブル(Amazon[白](https://amzn.to/4eQ0GTG)/[黒](https://amzn.to/4nPYwYs))
   - ロボットの稼働スペースやカメラ画角内の背景を確保するためなど、ロボットとPCを離したい場合に便利です。アームの色に合わせると区別しやすく便利です。
-  - 白：https://amzn.to/4eQ0GTG
-  - 黒：https://amzn.to/4nPYwYs
-- アームマウント用のカメラ
-  - パーツ追加、改造が必要ですが、エンドエフェクタ視点での画像取得に使用可能です。
-  - https://amzn.to/4mLR1AD
-　
+- アームマウント用のカメラ([Amazon](https://amzn.to/4mLR1AD))
+  - パーツ追加、改造が必要ですが、エンドエフェクタ視点での画像取得に使用可能です。下記情報もご参照ください。
+  - [STLファイル](https://github.com/TheRobotStudio/SO-ARM100/blob/main/Optional/SO101_Wrist_Cam_Hex-Nut_Mount_32x32_UVC_Module/stl/SO-ARM101_camera_wrist_mount.stl
+  )
+  - [オプションパーツ](https://github.com/TheRobotStudio/SO-ARM100/blob/main/Optional/SO101_Wrist_Cam_Hex-Nut_Mount_32x32_UVC_Module/stl/SO-ARM101_camera_wrist_mount.stl
+  )
+  
 
 ## オーガナイザー
 
